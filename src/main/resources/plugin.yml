@@ -1,0 +1,4 @@
+name: PlayerHealth
+version: '1.0-SNAPSHOT'
+main: sharpennd.playerhealth.PlayerHealth
+api-version: '1.21'
