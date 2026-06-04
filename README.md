@@ -1,6 +1,6 @@
 # HeartsDisplay
 
-HeartsDisplay is a lightweight Minecraft plugin for 1.21.x to 1.26.x that displays a player’s current health above their head in real time.
+HeartsDisplay is a lightweight Minecraft plugin for 1.21.x to 26.1.x that displays a player’s current health above their head in real time.
 
 ---
 
