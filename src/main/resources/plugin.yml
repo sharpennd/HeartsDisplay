@@ -1,4 +1,4 @@
-name: PlayerHealth
+name: HeartsDisplay
 version: '1.0-SNAPSHOT'
-main: sharpennd.playerhealth.PlayerHealth
+main: sharpennd.heartsdisplay.HeartsDisplay
 api-version: '1.21'
