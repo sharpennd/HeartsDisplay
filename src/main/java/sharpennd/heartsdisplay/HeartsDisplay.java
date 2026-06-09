@@ -62,10 +62,12 @@ public final class HeartsDisplay extends JavaPlugin implements Listener {
         double maxHp = player.getAttribute(Attribute.GENERIC_MAX_HEALTH).getValue();
         double currentHp = player.getHealth();
 
-        // Hearts = HP / 2, floored. Max hearts scales with actual max HP.
-        int hearts = (int) Math.floor(currentHp / 2.0);
+        // Display raw HP value (20 = full health = 10 hearts).
+        // This matches what players expect: 20 ❤ at full health, scales naturally
+        // with bonus HP from golden apples, health boost effects, or plugins.
+        int hp = (int) Math.floor(currentHp);
 
-        healthObjective.getScore(player.getName()).setScore(hearts);
+        healthObjective.getScore(player.getName()).setScore(hp);
     }
 
     @EventHandler
